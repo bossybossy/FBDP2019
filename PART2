@@ -1,0 +1,185 @@
+1. 把精简数据集导入到数据仓库Hive中，并对数据仓库Hive中的数据进行查询分析
+
+hive> drop table users
+    > ;
+OK
+Time taken: 0.578 seconds
+hive> create table users
+    > (user_id int,
+    > item_id int,
+    > cat_id int,
+    > merchant_id int,
+    > brand_id int,
+    > month int,
+    > day int,
+    > action int,
+    > age_range int,
+    > gender int,
+    > province string
+    > )
+    > row format serde 'org.apache.hadoop.hive.serde2.OpenCSVSerde' WITH SERDEPROPERTIES
+    > ("separatorChar"=",")
+    > STORED AS TEXTFILE;
+OK
+Time taken: 0.312 seconds
+
+
+hive> select * from users limit 5;
+OK
+328862	406349	1280	2700	5476	11	11	0	01四川
+328862	406349	1280	2700	5476	11	11	0	71重庆市
+328862	807126	1181	1963	6109	11	11	0	10上海市
+328862	406349	1280	2700	5476	11	11	2	60台湾
+328862	406349	1280	2700	5476	11	11	0	62甘肃
+Time taken: 0.517 seconds, Fetched: 5 row(s)
+
+
+
+2.查询双11那天有多少人购买了商品
+
+hive> select count(1) from users where action =2
+    > ;
+Query ID = root_20191220071009_c8679cf1-829e-42ef-ad4f-6c8248e2c0d6
+Total jobs = 1
+Launching Job 1 out of 1
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1576687152693_0001, Tracking URL = http://h01:8088/proxy/application_1576687152693_0001/
+Kill Command = /usr/local/hadoop/bin/mapred job  -kill job_1576687152693_0001
+Hadoop job information for Stage-1: number of mappers: 1; number of reducers: 1
+2019-12-20 07:10:53,759 Stage-1 map = 0%,  reduce = 0%
+2019-12-20 07:11:54,441 Stage-1 map = 0%,  reduce = 0%, Cumulative CPU 12.53 sec
+2019-12-20 07:12:09,889 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 19.13 sec
+2019-12-20 07:12:28,001 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 22.99 sec
+MapReduce Total cumulative CPU time: 22 seconds 990 msec
+Ended Job = job_1576687152693_0001
+MapReduce Jobs Launched: 
+Stage-Stage-1: Map: 1  Reduce: 1   Cumulative CPU: 22.99 sec   HDFS Read: 47321376 HDFS Write: 106 SUCCESS
+Total MapReduce CPU Time Spent: 22 seconds 990 msec
+OK
+116856
+Time taken: 139.838 seconds, Fetched: 1 row(s)
+
+双十一当天共有116856人购买了商品。
+
+
+3. 查询双11那天男女买家购买商品的比例
+
+hive> 
+    > 
+    > select count(1) from users where action =2 and gender =0;
+Query ID = root_20191220071307_993b442f-7d3a-4f8e-8e9a-04a2e45e94cc
+Total jobs = 1
+Launching Job 1 out of 1
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1576687152693_0002, Tracking URL = http://h01:8088/proxy/application_1576687152693_0002/
+Kill Command = /usr/local/hadoop/bin/mapred job  -kill job_1576687152693_0002
+Hadoop job information for Stage-1: number of mappers: 1; number of reducers: 1
+2019-12-20 07:13:29,018 Stage-1 map = 0%,  reduce = 0%
+2019-12-20 07:15:53,010 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 4.63 sec
+Ended Job = job_local2070960052_0004
+MapReduce Jobs Launched: 
+Stage-Stage-1:  HDFS Read: 0 HDFS Write: 0 SUCCESS
+Total MapReduce CPU Time Spent: 0 msec
+OK
+39058
+
+
+双十一当天共有39058名女性购买了商品。
+
+hive> select count(1) from users where action =2 and gender =1;
+Query ID = root_20191220081206_1de19fc9-ffc3-4772-af23-125fef9943ab
+Total jobs = 1
+Launching Job 1 out of 1
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1576687152693_0003, Tracking URL = http://h01:8088/proxy/application_1576687152693_0003/
+Kill Command = /usr/local/hadoop/bin/mapred job  -kill job_1576687152693_0003
+Hadoop job information for Stage-1: number of mappers: 1; number of reducers: 1
+2019-12-20 08:12:36,765 Stage-1 map = 0%,  reduce = 0%
+2019-12-20 08:13:59,709 Stage-1 map = 100%,  reduce = 100%
+Ended Job = job_local1663426465_0005
+MapReduce Jobs Launched: 
+Stage-Stage-1:  HDFS Read: 0 HDFS Write: 0 SUCCESS
+Total MapReduce CPU Time Spent: 0 msec
+OK
+38932
+
+
+双十一当天共有38932名男性收买了商品。
+
+
+男女比为：0.997
+
+
+
+4. 查询双11那天浏览次数前十的品牌
+hive> select brand_id,count(brand_id) number from users where action=0 group by brand_id order by number desc limit 10;
+Query ID = root_20191220101727_7753551e-90d7-41ff-b297-97d84a3f0b3c
+Total jobs = 2
+Launching Job 1 out of 2
+Number of reduce tasks not specified. Estimated from input data size: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1576687152693_0004, Tracking URL = http://h01:8088/proxy/application_1576687152693_0004/
+Kill Command = /usr/local/hadoop/bin/mapred job  -kill job_1576687152693_0004
+Hadoop job information for Stage-1: number of mappers: 1; number of reducers: 1
+2019-12-20 10:17:50,303 Stage-1 map = 0%,  reduce = 0%
+2019-12-20 10:18:12,450 Stage-1 map = 100%,  reduce = 0%, Cumulative CPU 11.2 sec
+2019-12-20 10:18:22,065 Stage-1 map = 100%,  reduce = 100%, Cumulative CPU 13.25 sec
+MapReduce Total cumulative CPU time: 13 seconds 250 msec
+Ended Job = job_1576687152693_0004
+Launching Job 2 out of 2
+Number of reduce tasks determined at compile time: 1
+In order to change the average load for a reducer (in bytes):
+  set hive.exec.reducers.bytes.per.reducer=<number>
+In order to limit the maximum number of reducers:
+  set hive.exec.reducers.max=<number>
+In order to set a constant number of reducers:
+  set mapreduce.job.reduces=<number>
+Starting Job = job_1576687152693_0005, Tracking URL = http://h01:8088/proxy/application_1576687152693_0005/
+Kill Command = /usr/local/hadoop/bin/mapred job  -kill job_1576687152693_0005
+Hadoop job information for Stage-2: number of mappers: 1; number of reducers: 1
+2019-12-20 10:18:38,529 Stage-2 map = 0%,  reduce = 0%
+2019-12-20 10:18:45,957 Stage-2 map = 100%,  reduce = 0%, Cumulative CPU 1.73 sec
+2019-12-20 10:18:54,506 Stage-2 map = 100%,  reduce = 100%, Cumulative CPU 3.32 sec
+MapReduce Total cumulative CPU time: 3 seconds 320 msec
+Ended Job = job_1576687152693_0005
+MapReduce Jobs Launched: 
+Stage-Stage-1: Map: 1  Reduce: 1   Cumulative CPU: 13.25 sec   HDFS Read: 47321274 HDFS Write: 128928 SUCCESS
+Stage-Stage-2: Map: 1  Reduce: 1   Cumulative CPU: 3.32 sec   HDFS Read: 136532 HDFS Write: 307 SUCCESS
+Total MapReduce CPU Time Spent: 16 seconds 570 msec
+OK
+1360	49151
+3738	10130
+82	9719
+1446	9426
+6215	8568
+1214	8470
+5376	8282
+2276	7990
+1662	7808
+8235	7661
+Time taken: 89.221 seconds, Fetched: 10 row(s)
+
+
