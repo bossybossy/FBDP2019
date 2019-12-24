@@ -1,0 +1,68 @@
+北京市
+[Row(cat_id='656', count=131), Row(cat_id='602', count=111), Row(cat_id='1208', count=101), Row(cat_id='177', count=90), Row(cat_id='1213', count=85), Row(cat_id='737', count=80), Row(cat_id='1142', count=80), Row(cat_id='1438', count=77), Row(cat_id='662', count=76), Row(cat_id='1401', count=75)]
+广东
+[Row(cat_id='656', count=132), Row(cat_id='1208', count=118), Row(cat_id='602', count=95), Row(cat_id='1401', count=87), Row(cat_id='1213', count=77), Row(cat_id='420', count=77), Row(cat_id='1142', count=77), Row(cat_id='737', count=75), Row(cat_id='389', count=71), Row(cat_id='662', count=70)]
+云南
+[Row(cat_id='1208', count=118), Row(cat_id='656', count=107), Row(cat_id='177', count=95), Row(cat_id='1142', count=82), Row(cat_id='737', count=80), Row(cat_id='662', count=78), Row(cat_id='602', count=68), Row(cat_id='1401', count=67), Row(cat_id='1611', count=66), Row(cat_id='1553', count=65)]
+内蒙古
+[Row(cat_id='1208', count=118), Row(cat_id='656', count=105), Row(cat_id='662', count=92), Row(cat_id='602', count=86), Row(cat_id='177', count=81), Row(cat_id='737', count=76), Row(cat_id='1142', count=73), Row(cat_id='1401', count=72), Row(cat_id='389', count=70), Row(cat_id='1611', count=67)]
+湖北
+[Row(cat_id='656', count=121), Row(cat_id='1208', count=112), Row(cat_id='1213', count=89), Row(cat_id='602', count=87), Row(cat_id='737', count=79), Row(cat_id='662', count=77), Row(cat_id='1401', count=75), Row(cat_id='1142', count=70), Row(cat_id='177', count=68), Row(cat_id='389', count=65)]
+新疆
+[Row(cat_id='1208', count=105), Row(cat_id='656', count=104), Row(cat_id='737', count=90), Row(cat_id='662', count=78), Row(cat_id='1213', count=77), Row(cat_id='177', count=71), Row(cat_id='602', count=70), Row(cat_id='1401', count=70), Row(cat_id='1438', count=66), Row(cat_id='389', count=64)]
+海南
+[Row(cat_id='1208', count=121), Row(cat_id='656', count=107), Row(cat_id='177', count=85), Row(cat_id='1213', count=82), Row(cat_id='1401', count=81), Row(cat_id='389', count=78), Row(cat_id='602', count=77), Row(cat_id='662', count=75), Row(cat_id='1553', count=74), Row(cat_id='1438', count=72)]
+西藏
+[Row(cat_id='656', count=116), Row(cat_id='1208', count=100), Row(cat_id='662', count=85), Row(cat_id='177', count=82), Row(cat_id='389', count=82), Row(cat_id='602', count=80), Row(cat_id='1142', count=76), Row(cat_id='737', count=75), Row(cat_id='1213', count=74), Row(cat_id='1438', count=65)]
+陕西
+[Row(cat_id='1208', count=138), Row(cat_id='656', count=119), Row(cat_id='602', count=89), Row(cat_id='1213', count=86), Row(cat_id='177', count=83), Row(cat_id='1142', count=81), Row(cat_id='662', count=80), Row(cat_id='389', count=75), Row(cat_id='737', count=74), Row(cat_id='1401', count=73)]
+重庆市
+[Row(cat_id='1208', count=117), Row(cat_id='656', count=107), Row(cat_id='1213', count=94), Row(cat_id='177', count=90), Row(cat_id='602', count=88), Row(cat_id='662', count=83), Row(cat_id='737', count=81), Row(cat_id='1401', count=76), Row(cat_id='389', count=66), Row(cat_id='1553', count=65)]
+香港
+[Row(cat_id='656', count=124), Row(cat_id='1208', count=119), Row(cat_id='602', count=111), Row(cat_id='1213', count=84), Row(cat_id='389', count=79), Row(cat_id='662', count=77), Row(cat_id='737', count=72), Row(cat_id='1401', count=70), Row(cat_id='1142', count=69), Row(cat_id='420', count=65)]
+广西
+[Row(cat_id='656', count=127), Row(cat_id='1208', count=113), Row(cat_id='602', count=90), Row(cat_id='737', count=84), Row(cat_id='389', count=82), Row(cat_id='1401', count=82), Row(cat_id='662', count=82), Row(cat_id='1142', count=71), Row(cat_id='1213', count=66), Row(cat_id='1611', count=60)]
+河南
+[Row(cat_id='656', count=145), Row(cat_id='1208', count=126), Row(cat_id='1401', count=89), Row(cat_id='602', count=86), Row(cat_id='737', count=85), Row(cat_id='177', count=75), Row(cat_id='1213', count=74), Row(cat_id='389', count=70), Row(cat_id='662', count=68), Row(cat_id='898', count=68)]
+贵州
+[Row(cat_id='1208', count=126), Row(cat_id='656', count=110), Row(cat_id='602', count=85), Row(cat_id='1213', count=79), Row(cat_id='737', count=77), Row(cat_id='1142', count=77), Row(cat_id='389', count=76), Row(cat_id='1553', count=76), Row(cat_id='662', count=75), Row(cat_id='1401', count=72)]
+江苏
+[Row(cat_id='656', count=131), Row(cat_id='1208', count=131), Row(cat_id='662', count=101), Row(cat_id='602', count=100), Row(cat_id='1213', count=89), Row(cat_id='737', count=86), Row(cat_id='177', count=78), Row(cat_id='1438', count=68), Row(cat_id='1401', count=67), Row(cat_id='1142', count=66)]
+宁夏
+[Row(cat_id='656', count=130), Row(cat_id='1208', count=121), Row(cat_id='602', count=113), Row(cat_id='737', count=89), Row(cat_id='662', count=89), Row(cat_id='177', count=85), Row(cat_id='1213', count=79), Row(cat_id='1438', count=75), Row(cat_id='1401', count=74), Row(cat_id='1142', count=73)]
+青海
+[Row(cat_id='656', count=122), Row(cat_id='1208', count=121), Row(cat_id='1142', count=94), Row(cat_id='1401', count=92), Row(cat_id='737', count=91), Row(cat_id='602', count=80), Row(cat_id='1213', count=79), Row(cat_id='177', count=74), Row(cat_id='662', count=74), Row(cat_id='389', count=72)]
+福建
+[Row(cat_id='1208', count=120), Row(cat_id='656', count=116), Row(cat_id='662', count=83), Row(cat_id='177', count=80), Row(cat_id='602', count=76), Row(cat_id='389', count=72), Row(cat_id='1213', count=72), Row(cat_id='1142', count=71), Row(cat_id='1401', count=67), Row(cat_id='737', count=64)]
+黑龙江
+[Row(cat_id='656', count=129), Row(cat_id='1208', count=118), Row(cat_id='177', count=91), Row(cat_id='1213', count=90), Row(cat_id='1401', count=90), Row(cat_id='602', count=84), Row(cat_id='662', count=82), Row(cat_id='1142', count=74), Row(cat_id='737', count=71), Row(cat_id='389', count=70)]
+辽宁
+[Row(cat_id='1208', count=121), Row(cat_id='656', count=118), Row(cat_id='177', count=96), Row(cat_id='602', count=89), Row(cat_id='1401', count=82), Row(cat_id='662', count=82), Row(cat_id='1213', count=80), Row(cat_id='1438', count=75), Row(cat_id='1142', count=73), Row(cat_id='389', count=66)]
+天津市
+[Row(cat_id='1208', count=130), Row(cat_id='656', count=115), Row(cat_id='1213', count=89), Row(cat_id='602', count=88), Row(cat_id='662', count=82), Row(cat_id='1142', count=80), Row(cat_id='389', count=75), Row(cat_id='737', count=74), Row(cat_id='177', count=71), Row(cat_id='664', count=67)]
+安徽
+[Row(cat_id='656', count=141), Row(cat_id='1208', count=120), Row(cat_id='602', count=101), Row(cat_id='737', count=85), Row(cat_id='1213', count=84), Row(cat_id='1401', count=80), Row(cat_id='662', count=77), Row(cat_id='664', count=68), Row(cat_id='420', count=67), Row(cat_id='1142', count=66)]
+上海市
+[Row(cat_id='656', count=125), Row(cat_id='602', count=108), Row(cat_id='1208', count=104), Row(cat_id='1142', count=83), Row(cat_id='177', count=81), Row(cat_id='1213', count=76), Row(cat_id='662', count=75), Row(cat_id='1401', count=75), Row(cat_id='737', count=73), Row(cat_id='389', count=72)]
+山东
+[Row(cat_id='656', count=121), Row(cat_id='1208', count=99), Row(cat_id='602', count=97), Row(cat_id='662', count=95), Row(cat_id='389', count=90), Row(cat_id='1142', count=87), Row(cat_id='177', count=86), Row(cat_id='737', count=85), Row(cat_id='1401', count=83), Row(cat_id='420', count=74)]
+澳门
+[Row(cat_id='656', count=129), Row(cat_id='1208', count=117), Row(cat_id='1213', count=93), Row(cat_id='602', count=87), Row(cat_id='662', count=86), Row(cat_id='177', count=80), Row(cat_id='1142', count=78), Row(cat_id='737', count=76), Row(cat_id='1401', count=70), Row(cat_id='1438', count=69)]
+湖南
+[Row(cat_id='656', count=135), Row(cat_id='1213', count=96), Row(cat_id='737', count=95), Row(cat_id='1208', count=92), Row(cat_id='602', count=92), Row(cat_id='177', count=88), Row(cat_id='1142', count=85), Row(cat_id='662', count=75), Row(cat_id='389', count=67), Row(cat_id='1401', count=64)]
+台湾
+[Row(cat_id='656', count=109), Row(cat_id='602', count=98), Row(cat_id='1208', count=89), Row(cat_id='1213', count=88), Row(cat_id='662', count=80), Row(cat_id='389', count=79), Row(cat_id='1438', count=77), Row(cat_id='177', count=75), Row(cat_id='1142', count=75), Row(cat_id='737', count=73)]
+山西
+[Row(cat_id='656', count=123), Row(cat_id='1208', count=119), Row(cat_id='1401', count=83), Row(cat_id='602', count=79), Row(cat_id='177', count=78), Row(cat_id='1213', count=77), Row(cat_id='1142', count=73), Row(cat_id='664', count=73), Row(cat_id='420', count=72), Row(cat_id='737', count=70)]
+甘肃
+[Row(cat_id='1208', count=120), Row(cat_id='656', count=104), Row(cat_id='602', count=102), Row(cat_id='177', count=99), Row(cat_id='737', count=86), Row(cat_id='1213', count=81), Row(cat_id='662', count=80), Row(cat_id='1553', count=72), Row(cat_id='389', count=69), Row(cat_id='1142', count=69)]
+河北
+[Row(cat_id='1208', count=123), Row(cat_id='656', count=122), Row(cat_id='602', count=95), Row(cat_id='662', count=94), Row(cat_id='737', count=83), Row(cat_id='1213', count=76), Row(cat_id='1142', count=76), Row(cat_id='1401', count=68), Row(cat_id='1553', count=60), Row(cat_id='389', count=58)]
+浙江
+[Row(cat_id='1208', count=129), Row(cat_id='656', count=112), Row(cat_id='602', count=95), Row(cat_id='177', count=92), Row(cat_id='662', count=89), Row(cat_id='737', count=89), Row(cat_id='1142', count=69), Row(cat_id='664', count=69), Row(cat_id='1213', count=66), Row(cat_id='1401', count=65)]
+江西
+[Row(cat_id='656', count=128), Row(cat_id='1208', count=126), Row(cat_id='602', count=106), Row(cat_id='177', count=90), Row(cat_id='737', count=90), Row(cat_id='662', count=80), Row(cat_id='1213', count=78), Row(cat_id='1142', count=78), Row(cat_id='389', count=70), Row(cat_id='1401', count=70)]
+四川
+[Row(cat_id='656', count=128), Row(cat_id='1208', count=105), Row(cat_id='602', count=101), Row(cat_id='737', count=94), Row(cat_id='662', count=80), Row(cat_id='420', count=77), Row(cat_id='1401', count=73), Row(cat_id='1553', count=71), Row(cat_id='177', count=69), Row(cat_id='1213', count=67)]
+吉林
+[Row(cat_id='656', count=129), Row(cat_id='1208', count=119), Row(cat_id='177', count=89), Row(cat_id='602', count=89), Row(cat_id='389', count=82), Row(cat_id='737', count=78), Row(cat_id='662', count=75), Row(cat_id='1438', count=73), Row(cat_id='1213', count=69), Row(cat_id='664', count=64)]

@@ -1,0 +1,68 @@
+北京市
+[Row(item_id='1059899', count=8), Row(item_id='191499', count=8), Row(item_id='514725', count=6), Row(item_id='944554', count=6), Row(item_id='698879', count=5), Row(item_id='965273', count=4), Row(item_id='1016263', count=4), Row(item_id='81360', count=4), Row(item_id='29104', count=4), Row(item_id='33363', count=4)]
+广东
+[Row(item_id='181387', count=7), Row(item_id='926069', count=7), Row(item_id='110347', count=6), Row(item_id='1059899', count=6), Row(item_id='713695', count=6), Row(item_id='1039919', count=6), Row(item_id='191499', count=6), Row(item_id='514725', count=6), Row(item_id='353560', count=6), Row(item_id='981145', count=5)]
+云南
+[Row(item_id='191499', count=10), Row(item_id='1059899', count=7), Row(item_id='655904', count=5), Row(item_id='48664', count=5), Row(item_id='349999', count=5), Row(item_id='1010145', count=5), Row(item_id='514725', count=4), Row(item_id='179830', count=4), Row(item_id='147751', count=4), Row(item_id='413046', count=4)]
+内蒙古
+[Row(item_id='353560', count=8), Row(item_id='191499', count=8), Row(item_id='770668', count=6), Row(item_id='1039919', count=6), Row(item_id='713695', count=5), Row(item_id='1059899', count=5), Row(item_id='226595', count=5), Row(item_id='358797', count=5), Row(item_id='376482', count=4), Row(item_id='514725', count=4)]
+湖北
+[Row(item_id='81360', count=7), Row(item_id='191499', count=6), Row(item_id='107407', count=6), Row(item_id='147751', count=5), Row(item_id='655904', count=5), Row(item_id='823766', count=5), Row(item_id='353560', count=5), Row(item_id='244688', count=4), Row(item_id='846908', count=4), Row(item_id='1112049', count=4)]
+新疆
+[Row(item_id='1059899', count=10), Row(item_id='349999', count=7), Row(item_id='353560', count=7), Row(item_id='110347', count=7), Row(item_id='315345', count=5), Row(item_id='676215', count=5), Row(item_id='1106283', count=5), Row(item_id='107407', count=5), Row(item_id='413046', count=4), Row(item_id='246081', count=4)]
+海南
+[Row(item_id='1059899', count=10), Row(item_id='191499', count=8), Row(item_id='353560', count=7), Row(item_id='514725', count=7), Row(item_id='28895', count=6), Row(item_id='513855', count=6), Row(item_id='990543', count=4), Row(item_id='770668', count=4), Row(item_id='81360', count=4), Row(item_id='195478', count=4)]
+西藏
+[Row(item_id='191499', count=11), Row(item_id='353560', count=8), Row(item_id='1059899', count=7), Row(item_id='315345', count=6), Row(item_id='783997', count=6), Row(item_id='936203', count=5), Row(item_id='713695', count=5), Row(item_id='221663', count=5), Row(item_id='698879', count=5), Row(item_id='1075577', count=4)]
+陕西
+[Row(item_id='191499', count=9), Row(item_id='353560', count=9), Row(item_id='514725', count=8), Row(item_id='936203', count=7), Row(item_id='221663', count=7), Row(item_id='107407', count=7), Row(item_id='1091980', count=6), Row(item_id='181387', count=6), Row(item_id='28895', count=6), Row(item_id='853575', count=5)]
+重庆市
+[Row(item_id='191499', count=8), Row(item_id='713695', count=8), Row(item_id='936203', count=6), Row(item_id='186456', count=6), Row(item_id='655904', count=6), Row(item_id='49881', count=6), Row(item_id='413046', count=5), Row(item_id='157763', count=5), Row(item_id='483836', count=5), Row(item_id='179830', count=5)]
+香港
+[Row(item_id='936203', count=8), Row(item_id='110347', count=6), Row(item_id='107407', count=6), Row(item_id='926069', count=5), Row(item_id='276750', count=5), Row(item_id='89953', count=5), Row(item_id='1059899', count=5), Row(item_id='191499', count=5), Row(item_id='713695', count=5), Row(item_id='825218', count=4)]
+广西
+[Row(item_id='221663', count=10), Row(item_id='936203', count=8), Row(item_id='353560', count=7), Row(item_id='889095', count=7), Row(item_id='191499', count=6), Row(item_id='783997', count=5), Row(item_id='671759', count=5), Row(item_id='676215', count=5), Row(item_id='773802', count=5), Row(item_id='81901', count=4)]
+河南
+[Row(item_id='191499', count=12), Row(item_id='1059899', count=9), Row(item_id='713695', count=7), Row(item_id='353560', count=6), Row(item_id='48664', count=5), Row(item_id='316514', count=5), Row(item_id='203050', count=5), Row(item_id='735931', count=5), Row(item_id='783997', count=4), Row(item_id='846103', count=4)]
+贵州
+[Row(item_id='783997', count=6), Row(item_id='179830', count=6), Row(item_id='936203', count=6), Row(item_id='28895', count=5), Row(item_id='713695', count=5), Row(item_id='191499', count=5), Row(item_id='823766', count=5), Row(item_id='353560', count=5), Row(item_id='343432', count=5), Row(item_id='335720', count=4)]
+江苏
+[Row(item_id='191499', count=10), Row(item_id='889095', count=6), Row(item_id='181387', count=6), Row(item_id='655904', count=6), Row(item_id='1039919', count=6), Row(item_id='272605', count=5), Row(item_id='944554', count=5), Row(item_id='110347', count=5), Row(item_id='203050', count=5), Row(item_id='496543', count=4)]
+宁夏
+[Row(item_id='318890', count=8), Row(item_id='713695', count=8), Row(item_id='191499', count=6), Row(item_id='783801', count=6), Row(item_id='67897', count=5), Row(item_id='28895', count=5), Row(item_id='181387', count=5), Row(item_id='335720', count=4), Row(item_id='213297', count=4), Row(item_id='655904', count=4)]
+青海
+[Row(item_id='353560', count=8), Row(item_id='944554', count=7), Row(item_id='221663', count=6), Row(item_id='191499', count=6), Row(item_id='81360', count=6), Row(item_id='800025', count=6), Row(item_id='316514', count=5), Row(item_id='1075577', count=5), Row(item_id='1025501', count=5), Row(item_id='713695', count=5)]
+福建
+[Row(item_id='783997', count=10), Row(item_id='67897', count=8), Row(item_id='713695', count=7), Row(item_id='100215', count=7), Row(item_id='823766', count=6), Row(item_id='836076', count=6), Row(item_id='141675', count=5), Row(item_id='201405', count=5), Row(item_id='179830', count=5), Row(item_id='1059899', count=5)]
+黑龙江
+[Row(item_id='191499', count=10), Row(item_id='353560', count=7), Row(item_id='823766', count=7), Row(item_id='722301', count=5), Row(item_id='1073932', count=5), Row(item_id='1039919', count=5), Row(item_id='783997', count=5), Row(item_id='15173', count=4), Row(item_id='655904', count=4), Row(item_id='777116', count=4)]
+辽宁
+[Row(item_id='936203', count=8), Row(item_id='698879', count=8), Row(item_id='655904', count=7), Row(item_id='783997', count=7), Row(item_id='886674', count=6), Row(item_id='846996', count=5), Row(item_id='713695', count=5), Row(item_id='1059899', count=5), Row(item_id='770668', count=5), Row(item_id='514725', count=5)]
+天津市
+[Row(item_id='1059899', count=8), Row(item_id='783997', count=7), Row(item_id='1100222', count=6), Row(item_id='191499', count=6), Row(item_id='317073', count=6), Row(item_id='823766', count=5), Row(item_id='493761', count=5), Row(item_id='864005', count=5), Row(item_id='698879', count=5), Row(item_id='3001', count=5)]
+安徽
+[Row(item_id='186456', count=6), Row(item_id='823766', count=6), Row(item_id='353560', count=6), Row(item_id='676215', count=6), Row(item_id='554408', count=5), Row(item_id='801860', count=5), Row(item_id='636863', count=5), Row(item_id='1059899', count=5), Row(item_id='514725', count=5), Row(item_id='100215', count=5)]
+上海市
+[Row(item_id='191499', count=12), Row(item_id='353560', count=10), Row(item_id='514725', count=6), Row(item_id='713695', count=6), Row(item_id='1059899', count=6), Row(item_id='1030146', count=5), Row(item_id='1044140', count=5), Row(item_id='213297', count=5), Row(item_id='944554', count=5), Row(item_id='376482', count=5)]
+山东
+[Row(item_id='713695', count=7), Row(item_id='1059899', count=7), Row(item_id='823766', count=7), Row(item_id='221663', count=6), Row(item_id='191499', count=6), Row(item_id='655904', count=5), Row(item_id='353560', count=5), Row(item_id='783997', count=5), Row(item_id='315345', count=5), Row(item_id='81901', count=5)]
+澳门
+[Row(item_id='353560', count=7), Row(item_id='1059899', count=6), Row(item_id='936203', count=6), Row(item_id='3001', count=5), Row(item_id='783997', count=5), Row(item_id='349999', count=5), Row(item_id='191499', count=5), Row(item_id='952198', count=5), Row(item_id='825218', count=4), Row(item_id='558176', count=4)]
+湖南
+[Row(item_id='191499', count=9), Row(item_id='81901', count=7), Row(item_id='992011', count=6), Row(item_id='181387', count=5), Row(item_id='655904', count=5), Row(item_id='67897', count=5), Row(item_id='353560', count=5), Row(item_id='1059899', count=5), Row(item_id='823766', count=5), Row(item_id='1039919', count=5)]
+台湾
+[Row(item_id='191499', count=8), Row(item_id='349999', count=7), Row(item_id='353560', count=7), Row(item_id='315345', count=6), Row(item_id='1024557', count=6), Row(item_id='823766', count=5), Row(item_id='770668', count=5), Row(item_id='713695', count=5), Row(item_id='944554', count=5), Row(item_id='221663', count=5)]
+山西
+[Row(item_id='191499', count=9), Row(item_id='559647', count=7), Row(item_id='713695', count=7), Row(item_id='221663', count=7), Row(item_id='353560', count=7), Row(item_id='936203', count=6), Row(item_id='1059899', count=6), Row(item_id='15173', count=5), Row(item_id='349999', count=5), Row(item_id='654894', count=5)]
+甘肃
+[Row(item_id='353560', count=11), Row(item_id='107675', count=7), Row(item_id='813135', count=6), Row(item_id='181387', count=6), Row(item_id='28186', count=5), Row(item_id='191499', count=5), Row(item_id='28895', count=5), Row(item_id='514725', count=5), Row(item_id='846908', count=4), Row(item_id='335720', count=4)]
+河北
+[Row(item_id='191499', count=9), Row(item_id='353560', count=7), Row(item_id='713695', count=7), Row(item_id='213297', count=6), Row(item_id='349999', count=6), Row(item_id='82431', count=6), Row(item_id='67897', count=5), Row(item_id='315345', count=4), Row(item_id='926069', count=4), Row(item_id='1059899', count=4)]
+浙江
+[Row(item_id='1059899', count=9), Row(item_id='191499', count=8), Row(item_id='107407', count=8), Row(item_id='349999', count=7), Row(item_id='514725', count=5), Row(item_id='783997', count=5), Row(item_id='81360', count=5), Row(item_id='48664', count=5), Row(item_id='213297', count=5), Row(item_id='221663', count=5)]
+江西
+[Row(item_id='191499', count=11), Row(item_id='349999', count=6), Row(item_id='698879', count=6), Row(item_id='107407', count=6), Row(item_id='514725', count=5), Row(item_id='229233', count=5), Row(item_id='181387', count=5), Row(item_id='783997', count=5), Row(item_id='676215', count=5), Row(item_id='713695', count=5)]
+四川
+[Row(item_id='514725', count=10), Row(item_id='191499', count=7), Row(item_id='209821', count=6), Row(item_id='1059899', count=6), Row(item_id='783997', count=6), Row(item_id='221663', count=6), Row(item_id='353560', count=5), Row(item_id='934988', count=5), Row(item_id='179830', count=5), Row(item_id='893999', count=5)]
+吉林
+[Row(item_id='1059899', count=11), Row(item_id='3001', count=8), Row(item_id='191499', count=8), Row(item_id='353560', count=6), Row(item_id='107407', count=6), Row(item_id='822352', count=5), Row(item_id='1039919', count=5), Row(item_id='655904', count=5), Row(item_id='147751', count=4), Row(item_id='81360', count=4)]
